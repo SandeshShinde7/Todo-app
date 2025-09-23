@@ -1,24 +1,22 @@
-This is a simple **Command-Line Calculator App** built in Python.  
-The calculator supports basic arithmetic operations and runs in a loop until the user chooses to exit.  
+To-Do CLI App
+
+A simple **console-based To-Do list manager** built with Python.  
+This app allows you to **add, view, update, and remove tasks**, with persistent storage in a text file.
 
 ---
 
-## ⚙️ Features
-- Addition (`+`)
-- Subtraction (`-`)
-- Multiplication (`*`)
-- Division (`/`) with **zero division error handling**
-- Input validation (handles invalid numbers or wrong operation)
-- CLI-based interactive design
+## 🚀 Features
+- 📋 View tasks  
+- ➕ Add a new task  
+- 🔄 Update an existing task  
+- ❌ Remove a task  
+- 💾 Persistent storage in `tasks.txt`  
 
 ---
 
-## 🛠️ Tech Stack
-- **Language:** Python 3.x  
-- **Editor:** VS Code / Any Text Editor  
-- **Environment:** Terminal / Command Prompt  
+## 🛠 How to Run
 
-1. Clone the repository:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/cli-calculator.git
-   cd cli-calculator
+   git clone https://github.com/<your-username>/todo-cli-app.git
+   cd todo-cli-app
