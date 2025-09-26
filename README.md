@@ -1,22 +1,17 @@
-To-Do CLI App
-
-A simple **console-based To-Do list manager** built with Python.  
-This app allows you to **add, view, update, and remove tasks**, with persistent storage in a text file.
+The goal is to build a simple **web scraper** that collects top news headlines from a public website.
 
 ---
 
-## 🚀 Features
-- 📋 View tasks  
-- ➕ Add a new task  
-- 🔄 Update an existing task  
-- ❌ Remove a task  
-- 💾 Persistent storage in `tasks.txt`  
+## 🛠️ Tools & Technologies
+- **Language:** Python 3  
+- **Libraries:**  
+  - `requests` → to fetch HTML content  
+  - `beautifulsoup4` → to parse and extract headlines  
 
 ---
 
-## 🛠 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/todo-cli-app.git
-   cd todo-cli-app
+## 🚀 How It Works
+1. Fetches the HTML content of [BBC News](https://www.bbc.com/news).  
+2. Parses the content using **BeautifulSoup**.  
+3. Extracts headlines from `<h2>` and `<h3>` tags.  
+4. Saves them in a file called **`headlines.txt`**.  
